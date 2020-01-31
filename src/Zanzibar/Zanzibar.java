@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class Zanzibar {
     public static void main(String[] args) throws FileNotFoundException {
         //File file = new File(Paths.get("").toAbsolutePath() + "\\input\\Zanzibar.txt");
-        //Scanner sc = new Scanner(file);
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(file);
+        //Scanner sc = new Scanner(System.in);
         sc.nextLine();
         while(sc.hasNextLine()) {
             int lowerBound = 0;
